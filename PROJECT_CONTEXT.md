@@ -59,6 +59,7 @@ codeforge/
 **Concepts learned** (only mark if truly understood, not just generated): none yet
 **Commands learned:** none yet
 **Important decisions:** (format: Decision / Reason / Date) — stack above is the initial decision set; record any change here.
+Decision: After each major milestone, give Dev a small understanding-test challenge (no solution unless asked). / Reason: Dev wants to verify real understanding, not just working code. / Date: 2026-10-08
 **Known issues:** none
 **Bugs fixed:** none
 
