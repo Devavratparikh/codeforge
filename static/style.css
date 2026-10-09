@@ -119,3 +119,110 @@ nav a.btn {
 .badge.easy   { background: #14532d; color: #4ade80; }
 .badge.medium { background: #713f12; color: #facc15; }
 .badge.hard   { background: #7f1d1d; color: #f87171; }
+
+.problem-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1300px;
+  margin: 24px auto;
+  padding: 0 20px;
+}
+
+.panel {
+  background: #1e293b;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.description h1 {
+  display: inline-block;
+  margin-right: 12px;
+  margin-bottom: 16px;
+}
+
+.description p,
+.description ul {
+  margin-top: 16px;
+  line-height: 1.6;
+}
+
+.description h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.description ul {
+  padding-left: 20px;
+}
+
+pre {
+  background: #0f172a;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+code {
+  background: #0f172a;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-toolbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.editor select {
+  background: #0f172a;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.editor textarea {
+  flex: 1;
+  min-height: 400px;
+  background: #0f172a;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  padding: 12px;
+  font-family: monospace;
+  font-size: 0.95rem;
+  resize: vertical;
+}
+
+.btn-outline,
+.btn-solid {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #e2e8f0;
+  border: 1px solid #38bdf8;
+}
+
+.btn-solid {
+  background: #38bdf8;
+  color: #0f172a;
+  border: 1px solid #38bdf8;
+}
+
+@media (max-width: 800px) {
+  .problem-layout {
+    grid-template-columns: 1fr;
+  }
+}
