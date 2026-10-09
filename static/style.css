@@ -67,3 +67,55 @@ nav a.btn {
   margin-bottom: 28px;
   color: #94a3b8;
 }
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.problems-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1e293b;
+}
+
+.problems-table th,
+.problems-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #334155;
+}
+
+.problems-table th {
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.problems-table tbody tr:hover {
+  background: #273449;
+}
+
+.problems-table a {
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+.problems-table a:hover {
+  color: #38bdf8;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.badge.easy   { background: #14532d; color: #4ade80; }
+.badge.medium { background: #713f12; color: #facc15; }
+.badge.hard   { background: #7f1d1d; color: #f87171; }
